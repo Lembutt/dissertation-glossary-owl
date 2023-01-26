@@ -1,6 +1,6 @@
 # Запуск
 ```bash
-git clone dissertation-glossary-owl
+git clone https://github.com/Lembutt/dissertation-glossary-owl.git
 cd dissertation-glossary-owl
 docker pull lembutt/webvowl-glossary
 docker-compose up -d
