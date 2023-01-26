@@ -1,0 +1,973 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+      "untitled-ontology-2" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#"
+    },
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "comments" : {
+      "undefined" : "Ontology for dissertation"
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Stablecoin",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stablecoin"
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Consensus_Mechanism",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Consensus_Mechanism"
+    },
+    "subClasses" : [ "6", "7", "8", "9" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Spheres_of_Life",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Spheres_of_Life"
+    },
+    "subClasses" : [ "11", "12", "13", "14", "15" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Data_Storage_Solutions",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Data_Storage_Solutions"
+    },
+    "id" : "16"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Distributed_Ledger_Technology",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Distributed_Ledger_Technology"
+    },
+    "subClasses" : [ "2" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#IT",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IT"
+    },
+    "subClasses" : [ "25", "26" ],
+    "id" : "11",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Vitalik_Buterin",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "annotations" : {
+      "founder-of" : [ {
+        "identifier" : "founder-of",
+        "language" : "undefined",
+        "value" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Ethereum",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Vitalik_Buterin"
+    },
+    "id" : "27",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Personality",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Personality"
+    },
+    "subClasses" : [ "39", "40", "27" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Permissioned_Blockchain",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Permissioned_Blockchain"
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#BTC",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BTC"
+    },
+    "id" : "41",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Web",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Web"
+    },
+    "subClasses" : [ "43" ],
+    "id" : "26",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#JavaScript",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "JavaScript"
+    },
+    "subClasses" : [ "37" ],
+    "id" : "38",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#ETH",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ETH"
+    },
+    "id" : "51",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Cryptography",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cryptography"
+    },
+    "subClasses" : [ "48", "45" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Blockchain",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Blockchain"
+    },
+    "subClasses" : [ "32", "30", "4", "34", "24", "21", "1" ],
+    "id" : "2",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Law",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Law"
+    },
+    "subClasses" : [ "52" ],
+    "id" : "14",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Data_Privacy_and_Security",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Data_Privacy_and_Security"
+    },
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Medicine",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Medicine"
+    },
+    "subClasses" : [ "54" ],
+    "id" : "15",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Bitcoin",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bitcoin"
+    },
+    "id" : "32",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Digital_Signature",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Digital_Signature"
+    },
+    "id" : "48",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Cryptocurrency",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cryptocurrency"
+    },
+    "subClasses" : [ "51", "3", "41" ],
+    "id" : "4",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Satoshi_Nakamoto",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "annotations" : {
+      "founder-of" : [ {
+        "identifier" : "founder-of",
+        "language" : "undefined",
+        "value" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Bitcoin",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Satoshi_Nakamoto"
+    },
+    "id" : "40",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Tim_Berners-Lee",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "annotations" : {
+      "founder-of" : [ {
+        "identifier" : "founder-of",
+        "language" : "undefined",
+        "value" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Web",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Tim_Berners-Lee"
+    },
+    "id" : "39",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Public_Administration",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Public_Administration"
+    },
+    "subClasses" : [ "57" ],
+    "id" : "12",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Private_Blockchain",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Private_Blockchain"
+    },
+    "id" : "24",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Medical_Records",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Medical_Records"
+    },
+    "id" : "54",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Smart_Contracts",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Smart_Contracts"
+    },
+    "subClasses" : [ "67" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Ethereum",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ethereum"
+    },
+    "subClasses" : [ "67" ],
+    "id" : "30",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Web3",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Web3"
+    },
+    "id" : "43",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Proof-of-Work",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "annotations" : {
+      "used-in" : [ {
+        "identifier" : "used-in",
+        "language" : "undefined",
+        "value" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Bitcoin",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Proof-of-Work"
+    },
+    "id" : "6",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Money_Flow",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Money_Flow"
+    },
+    "id" : "68",
+    "superClasses" : [ "13" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "16", "53" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "50"
+  }, {
+    "instances" : 0,
+    "union" : [ "32", "66", "30", "46" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Proof-of-Stake",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "annotations" : {
+      "used-in" : [ {
+        "identifier" : "used-in",
+        "language" : "undefined",
+        "value" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Ethereum",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Proof-of-Stake"
+    },
+    "id" : "8",
+    "superClasses" : [ "5" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "4", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "19",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Real_Estate_Registration",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Real_Estate_Registration"
+    },
+    "id" : "57",
+    "superClasses" : [ "12" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "48", "66", "46", "5", "45" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Proof-of-Authority",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Proof-of-Authority"
+    },
+    "id" : "7",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Decentralized_Applications",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Decentralized_Applications"
+    },
+    "id" : "21",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Gas",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gas"
+    },
+    "id" : "34",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Public_Key",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Public_Key"
+    },
+    "id" : "45",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#NodeJS",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NodeJS"
+    },
+    "id" : "37",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Contracts",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Contracts"
+    },
+    "id" : "52",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Programming_Language",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Programming_Language"
+    },
+    "subClasses" : [ "38", "67" ],
+    "id" : "25",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Economics",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Economics"
+    },
+    "subClasses" : [ "68" ],
+    "id" : "13",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Solidity",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Solidity"
+    },
+    "id" : "67",
+    "superClasses" : [ "66", "30", "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Delegated_Proof-of-Stake",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Delegated_Proof-of-Stake"
+    },
+    "id" : "9",
+    "superClasses" : [ "5" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#used-in",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "used-in"
+    },
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "Используется в"
+    },
+    "attributes" : [ "object" ],
+    "id" : "17"
+  }, {
+    "range" : "2",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "20"
+  }, {
+    "range" : "2",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "23"
+  }, {
+    "range" : "2",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
+  }, {
+    "range" : "2",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "31"
+  }, {
+    "range" : "2",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "35"
+  }, {
+    "range" : "38",
+    "domain" : "37",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "36"
+  }, {
+    "range" : "26",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "42"
+  }, {
+    "range" : "46",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "44"
+  }, {
+    "range" : "46",
+    "domain" : "48",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#provided-by",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "provided-by"
+    },
+    "domain" : "50",
+    "attributes" : [ "object" ],
+    "id" : "49"
+  }, {
+    "range" : "28",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "55"
+  }, {
+    "range" : "28",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "56"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "58"
+  }, {
+    "range" : "22",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
+  }, {
+    "range" : "10",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "60"
+  }, {
+    "range" : "11",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "61"
+  }, {
+    "range" : "11",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "62"
+  }, {
+    "range" : "10",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "63"
+  }, {
+    "range" : "10",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "range" : "10",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "65"
+  }, {
+    "range" : "5",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "71"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "72"
+  }, {
+    "range" : "5",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#based-on",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "based-on"
+    },
+    "domain" : "70",
+    "comment" : {
+      "undefined" : "Базируются на"
+    },
+    "attributes" : [ "object" ],
+    "id" : "74"
+  }, {
+    "range" : "5",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "75"
+  }, {
+    "range" : "10",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "76"
+  }, {
+    "range" : "13",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "77"
+  }, {
+    "range" : "25",
+    "domain" : "67",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "78"
+  }, {
+    "range" : "25",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "79"
+  }, {
+    "range" : "12",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "80"
+  }, {
+    "range" : "4",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "81"
+  }, {
+    "range" : "30",
+    "domain" : "67",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "82"
+  }, {
+    "range" : "66",
+    "domain" : "67",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "83"
+  }, {
+    "range" : "15",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "84"
+  }, {
+    "range" : "14",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "85"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "86"
+  }, {
+    "range" : "4",
+    "domain" : "51",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "87"
+  } ]
+}
