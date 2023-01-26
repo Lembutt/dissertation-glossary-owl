@@ -1,643 +1,975 @@
 {
   "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
   "header" : {
-    "languages" : [ "undefined" ],
-    "baseIris" : [ "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "languages" : [ "ru", "undefined" ],
+    "baseIris" : [ "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
     "prefixList" : {
+      "dissertation-glossary" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#",
       "owl" : "http://www.w3.org/2002/07/owl#",
       "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
       "xsd" : "http://www.w3.org/2001/XMLSchema#",
-      "" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#",
+      "" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#",
       "xml" : "http://www.w3.org/XML/1998/namespace",
-      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
-      "untitled-ontology-2" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#"
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
     },
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "comments" : {
       "undefined" : "Ontology for dissertation"
     }
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "3",
+    "id" : "0",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
     "type" : "owl:Class"
   }, {
     "id" : "10",
     "type" : "owl:Class"
   }, {
-    "id" : "16",
-    "type" : "owl:Class"
-  }, {
-    "id" : "22",
-    "type" : "owl:Class"
-  }, {
-    "id" : "11",
-    "type" : "owl:Class"
-  }, {
-    "id" : "27",
-    "type" : "owl:Class"
-  }, {
-    "id" : "28",
-    "type" : "owl:Class"
-  }, {
-    "id" : "1",
-    "type" : "owl:Class"
-  }, {
-    "id" : "41",
-    "type" : "owl:Class"
-  }, {
-    "id" : "26",
-    "type" : "owl:Class"
-  }, {
-    "id" : "38",
-    "type" : "owl:Class"
-  }, {
-    "id" : "51",
-    "type" : "owl:Class"
-  }, {
-    "id" : "46",
-    "type" : "owl:Class"
-  }, {
-    "id" : "2",
-    "type" : "owl:Class"
-  }, {
-    "id" : "14",
-    "type" : "owl:Class"
-  }, {
-    "id" : "53",
-    "type" : "owl:Class"
-  }, {
-    "id" : "15",
-    "type" : "owl:Class"
-  }, {
-    "id" : "32",
-    "type" : "owl:Class"
-  }, {
-    "id" : "48",
-    "type" : "owl:Class"
-  }, {
-    "id" : "4",
-    "type" : "owl:Class"
-  }, {
-    "id" : "40",
-    "type" : "owl:Class"
-  }, {
-    "id" : "39",
-    "type" : "owl:Class"
-  }, {
-    "id" : "12",
-    "type" : "owl:Class"
-  }, {
-    "id" : "24",
-    "type" : "owl:Class"
-  }, {
-    "id" : "54",
-    "type" : "owl:Class"
-  }, {
-    "id" : "66",
-    "type" : "owl:Class"
-  }, {
-    "id" : "30",
-    "type" : "owl:Class"
-  }, {
-    "id" : "43",
-    "type" : "owl:Class"
-  }, {
-    "id" : "6",
-    "type" : "owl:Class"
-  }, {
-    "id" : "68",
-    "type" : "owl:Class"
-  }, {
-    "id" : "50",
-    "type" : "owl:Class"
-  }, {
-    "id" : "69",
-    "type" : "owl:Class"
-  }, {
-    "id" : "8",
-    "type" : "owl:Class"
-  }, {
-    "id" : "70",
-    "type" : "owl:Class"
-  }, {
-    "id" : "19",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "57",
+    "id" : "13",
     "type" : "owl:Class"
   }, {
     "id" : "18",
     "type" : "owl:Class"
   }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
     "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "21",
+    "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "34",
+    "id" : "48",
     "type" : "owl:Class"
   }, {
-    "id" : "45",
+    "id" : "78",
     "type" : "owl:Class"
   }, {
-    "id" : "37",
+    "id" : "22",
     "type" : "owl:Class"
   }, {
-    "id" : "52",
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
     "type" : "owl:Class"
   }, {
     "id" : "25",
     "type" : "owl:Class"
   }, {
-    "id" : "13",
+    "id" : "28",
     "type" : "owl:Class"
   }, {
-    "id" : "67",
-    "type" : "owl:Class"
-  }, {
-    "id" : "9",
+    "id" : "17",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Stablecoin",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Stablecoin"
-    },
-    "id" : "3",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Consensus_Mechanism",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Consensus_Mechanism",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Consensus_Mechanism"
     },
-    "subClasses" : [ "6", "7", "8", "9" ],
-    "id" : "5"
+    "subClasses" : [ "1", "2" ],
+    "id" : "0"
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Spheres_of_Life",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Permissioned_Blockchain",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Spheres_of_Life"
+      "IRI-based" : "Permissioned_Blockchain"
     },
-    "subClasses" : [ "11", "12", "13", "14", "15" ],
-    "id" : "10"
+    "id" : "6",
+    "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Data_Storage_Solutions",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Vitalik_Buterin",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
-    "label" : {
-      "IRI-based" : "Data_Storage_Solutions"
+    "description" : {
+      "ru" : "канадско-российский программист, сооснователь и бывший редактор печатного журнала Bitcoin Magazine, сооснователь проекта Ethereum, за идею которого в 2014 году выиграл премию World Technology Award, обойдя основателя Facebook Марка Цукерберга и других претендентов. Он также выиграл грант на сумму 100 тысяч долларов от Thiel Fellowship для развития проекта. Владеет русским, английским и китайским языками."
     },
-    "id" : "16"
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Distributed_Ledger_Technology",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Distributed_Ledger_Technology"
-    },
-    "subClasses" : [ "2" ],
-    "id" : "22"
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#IT",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "IT"
-    },
-    "subClasses" : [ "25", "26" ],
-    "id" : "11",
-    "superClasses" : [ "10" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Vitalik_Buterin",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
     "annotations" : {
       "founder-of" : [ {
         "identifier" : "founder-of",
         "language" : "undefined",
-        "value" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Ethereum",
+        "value" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Ethereum",
         "type" : "iri"
+      } ],
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "https://ru.wikipedia.org/wiki/%D0%91%D1%83%D1%82%D0%B5%D1%80%D0%B8%D0%BD,_%D0%92%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D0%BA",
+        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "Vitalik_Buterin"
     },
-    "id" : "27",
-    "superClasses" : [ "28" ]
+    "id" : "8",
+    "superClasses" : [ "9" ]
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Personality",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Economics",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Personality"
+      "IRI-based" : "Economics"
     },
-    "subClasses" : [ "39", "40", "27" ],
-    "id" : "28"
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Permissioned_Blockchain",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Permissioned_Blockchain"
-    },
-    "id" : "1",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#BTC",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "BTC"
-    },
-    "id" : "41",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Web",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Web"
-    },
-    "subClasses" : [ "43" ],
-    "id" : "26",
+    "subClasses" : [ "12" ],
+    "id" : "10",
     "superClasses" : [ "11" ]
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#JavaScript",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Contracts",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "JavaScript"
+      "IRI-based" : "Contracts"
     },
-    "subClasses" : [ "37" ],
-    "id" : "38",
-    "superClasses" : [ "25" ]
+    "subClasses" : [ "15" ],
+    "id" : "13",
+    "superClasses" : [ "14" ]
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#ETH",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Types",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Types"
+    },
+    "subClasses" : [ "19", "20" ],
+    "id" : "18",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Distributed_Ledger_Technology",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Distributed_Ledger_Technology"
+    },
+    "subClasses" : [ "7" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#ETH",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
     "label" : {
       "IRI-based" : "ETH"
     },
-    "id" : "51",
-    "superClasses" : [ "4" ]
+    "id" : "42",
+    "superClasses" : [ "43" ]
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Cryptography",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Cryptography"
-    },
-    "subClasses" : [ "48", "45" ],
-    "id" : "46"
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Blockchain",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Blockchain"
-    },
-    "subClasses" : [ "32", "30", "4", "34", "24", "21", "1" ],
-    "id" : "2",
-    "superClasses" : [ "22" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Law",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Law",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Law"
     },
-    "subClasses" : [ "52" ],
+    "subClasses" : [ "13" ],
     "id" : "14",
-    "superClasses" : [ "10" ]
+    "superClasses" : [ "11" ]
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Data_Privacy_and_Security",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Private_Blockchain",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Data_Privacy_and_Security"
+      "IRI-based" : "Private_Blockchain"
     },
-    "id" : "53"
+    "id" : "46",
+    "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Medicine",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Satoshi_Nakamoto",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
-    "label" : {
-      "IRI-based" : "Medicine"
+    "description" : {
+      "ru" : "псевдоним человека или группы людей, разработавших протокол криптовалюты биткойн и создавших первую версию программного обеспечения, в котором этот протокол был реализован. Было предпринято несколько попыток раскрыть реальную личность или группу, стоящую за этим именем, но ни одна из них не привела к успеху."
     },
-    "subClasses" : [ "54" ],
-    "id" : "15",
-    "superClasses" : [ "10" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Bitcoin",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Bitcoin"
-    },
-    "id" : "32",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Digital_Signature",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Digital_Signature"
-    },
-    "id" : "48",
-    "superClasses" : [ "46" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Cryptocurrency",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Cryptocurrency"
-    },
-    "subClasses" : [ "51", "3", "41" ],
-    "id" : "4",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Satoshi_Nakamoto",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
     "annotations" : {
       "founder-of" : [ {
         "identifier" : "founder-of",
         "language" : "undefined",
-        "value" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Bitcoin",
+        "value" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Bitcoin",
         "type" : "iri"
+      } ],
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D1%82%D0%BE%D1%81%D0%B8_%D0%9D%D0%B0%D0%BA%D0%B0%D0%BC%D0%BE%D1%82%D0%BE",
+        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "Satoshi_Nakamoto"
     },
-    "id" : "40",
-    "superClasses" : [ "28" ]
+    "id" : "54",
+    "superClasses" : [ "9" ]
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Tim_Berners-Lee",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Децентрализованность",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
-    "annotations" : {
-      "founder-of" : [ {
-        "identifier" : "founder-of",
-        "language" : "undefined",
-        "value" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Web",
-        "type" : "iri"
-      } ]
+    "description" : {
+      "undefined" : "Компьютеры находятся в одноранговой сети, где нет централизованного управления, имеют одинаковые права и обязательства. Данные обрабатываются совместно всеми узлами, находящимися в сети;"
     },
     "label" : {
-      "IRI-based" : "Tim_Berners-Lee"
+      "IRI-based" : "Децентрализованность"
     },
-    "id" : "39",
-    "superClasses" : [ "28" ]
+    "id" : "60",
+    "superClasses" : [ "61" ]
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Public_Administration",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Public_Administration"
-    },
-    "subClasses" : [ "57" ],
-    "id" : "12",
-    "superClasses" : [ "10" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Private_Blockchain",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Private_Blockchain"
-    },
-    "id" : "24",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Medical_Records",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Medical_Records",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Medical_Records"
     },
-    "id" : "54",
-    "superClasses" : [ "15" ]
+    "id" : "40",
+    "superClasses" : [ "41" ]
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Smart_Contracts",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Smart_Contracts",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
-    "label" : {
-      "IRI-based" : "Smart_Contracts"
+    "description" : {
+      "undefined" : "договор, записанный в виде компьютерной программы. Текст смарт-контракта криптографически подписывается сторонами сделки и запускается на исполнение на доверенной платформе. Смарт-контракт контролирует условия договора и, при выполнении условий, исполняет его обязательства. Для автоматической работы смарт-контракта все условия и обязательства договора должны быть программно доступны на доверенной платформе, например на платформах криптовалют."
     },
-    "subClasses" : [ "67" ],
-    "id" : "66"
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Ethereum",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Ethereum"
-    },
-    "subClasses" : [ "67" ],
-    "id" : "30",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Web3",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Web3"
-    },
-    "id" : "43",
-    "superClasses" : [ "26" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Proof-of-Work",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
     "annotations" : {
-      "used-in" : [ {
-        "identifier" : "used-in",
+      "description-source" : [ {
+        "identifier" : "description-source",
         "language" : "undefined",
-        "value" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Bitcoin",
-        "type" : "iri"
+        "value" : "https://ru.wikipedia.org/wiki/%D0%A1%D0%BC%D0%B0%D1%80%D1%82-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%BA%D1%82",
+        "type" : "label"
       } ]
     },
     "label" : {
-      "IRI-based" : "Proof-of-Work"
+      "IRI-based" : "Smart_Contracts"
     },
-    "id" : "6",
-    "superClasses" : [ "5" ]
+    "subClasses" : [ "22" ],
+    "id" : "15",
+    "superClasses" : [ "13", "63", "7" ]
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Money_Flow",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Ethereum",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
+    "description" : {
+      "undefined" : "криптовалютная платформа, которая позволяет управлять активами и данными на основе технологии блокчейн с помощью смарт-контрактов. При этом под смарт-контрактом следует понимать децентрализованное приложение, предназначенное для манипуляции данными и криптовалютой. Децентрализованным данное приложение называется из-за того, что каждый узел распределенной сети должен обработать команды, которые формирует смарт-контракт, из-за чего блокчейн Ethereum также называют платформой для распределенных вычислений"
+    },
+    "annotations" : {
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "Buterin V. A Next Generation Smart Contract and Decentralized Application Platform //  Ethereum White Paper. 2018.",
+        "type" : "label"
+      } ]
+    },
     "label" : {
-      "IRI-based" : "Money_Flow"
+      "IRI-based" : "Ethereum"
     },
-    "id" : "68",
-    "superClasses" : [ "13" ]
+    "subClasses" : [ "28", "22" ],
+    "id" : "20",
+    "superClasses" : [ "18" ]
   }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Proof-of-Stake",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
-    "union" : [ "16", "53" ],
-    "attributes" : [ "anonymous", "union" ],
-    "id" : "50"
-  }, {
-    "instances" : 0,
-    "union" : [ "32", "66", "30", "46" ],
-    "attributes" : [ "anonymous", "union" ],
-    "id" : "69"
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Proof-of-Stake",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
+    "description" : {
+      "undefined" : "метод защиты в криптовалютах, при котором вероятность формирования участником очередного блока в блокчейне пропорциональна доле, которую составляют принадлежащие этому участнику расчётные единицы данной криптовалюты от их общего количества. Данный метод является альтернативой методу подтверждения выполнения работы (PoW), при котором вероятность создания очередного блока выше у обладателя более мощного оборудования[1][2]."
+    },
     "annotations" : {
       "used-in" : [ {
         "identifier" : "used-in",
         "language" : "undefined",
-        "value" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Ethereum",
+        "value" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Ethereum",
         "type" : "iri"
+      } ],
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%B4%D0%BE%D0%BB%D0%B8_%D0%B2%D0%BB%D0%B0%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F",
+        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "Proof-of-Stake"
     },
-    "id" : "8",
-    "superClasses" : [ "5" ]
+    "id" : "1",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Public_Administration",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "деятельность органов государственной власти и их должностных лиц по практическому воплощению выработанного плана во благо общества и укреплению государства."
+    },
+    "annotations" : {
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Public_Administration"
+    },
+    "subClasses" : [ "17", "4" ],
+    "id" : "5",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Blockchain",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "это инновационная парадигма децентрализованной инфраструктуры и распределенных вычислений, которая использует зашифрованные блоки данных, объединенных в цепочку для чтения, хранения и проверки, использует алгоритм консенсуса распределенных нодов (узлов) для создания и обновления данных, а также использует смарт-контракты для программирования и управления данными"
+    },
+    "annotations" : {
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "Li W., He M., Haiquan S. An Overview of Blockchain Technology: Applications, Challenges and Future Trends // 2021 IEEE 11th International Conference on Electronics Information and Emergency Communication (ICEIEC). 2021. С. 31-39.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Blockchain"
+    },
+    "subClasses" : [ "15", "18", "6", "46", "63", "43" ],
+    "id" : "7",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Proof-of-Work",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Доказательство выполнения работы (англ. proof-of-work, POW, PoW) — принцип защиты сетевых систем от злоупотребления услугами (например, от DoS-атак, организации рассылок спама или публикации своей, альтернативной, версии цепочек блоков в блокчейн). Идея в том, что можно настолько усложнить клиенту доступ к обращениям на сервер, что злоупотребления массовыми обращениями станут принципиально нерентабельными. Для этого при каждом обращении к серверу клиент должен предоставить результат выполнения некоторой достаточно длительной работы (например, решение задачи), результат которой легко и быстро проверяется на стороне сервера (см. односторонняя функция). Главная особенность применяемых вычислений заключается в асимметрии затрат времени — они значительны на нахождение решения и весьма малы для проверки[1]. Подобные схемы также известны как client puzzle (функция клиентской головоломки), computational puzzle (вычислительная головоломка), или CPU pricing function."
+    },
+    "annotations" : {
+      "used-in" : [ {
+        "identifier" : "used-in",
+        "language" : "undefined",
+        "value" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Bitcoin",
+        "type" : "iri"
+      } ],
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Proof-of-Work"
+    },
+    "id" : "2",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Web",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "ru" : "распределённая система, предоставляющая доступ к связанным между собой документам, расположенным на различных компьютерах, подключённых к сети Интернет. Для обозначения Всемирной паутины также используют слово веб (англ. web «паутина») и аббревиатуру WWW."
+    },
+    "annotations" : {
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "https://ru.wikipedia.org/wiki/%D0%92%D1%81%D0%B5%D0%BC%D0%B8%D1%80%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B0%D1%83%D1%82%D0%B8%D0%BD%D0%B0",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Web"
+    },
+    "subClasses" : [ "76" ],
+    "id" : "48",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#BTC",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BTC"
+    },
+    "id" : "78",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Solidity",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "объектно-ориентированный язык высокого уровня для реализации смарт-контрактов. На него повлияли C++, Python и JavaScript. Solidity имеет статическую типизацию, поддерживает наследование, библиотеки и сложные определяемые пользователем типы данных"
+    },
+    "annotations" : {
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "Документация Solidity // https://docs.soliditylang.org – [Электронный ресурс]. URL: https://docs.soliditylang.org/en/v0.8.15/, свободный (дата обращения: 28.06.2022).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Solidity"
+    },
+    "id" : "22",
+    "superClasses" : [ "20", "15", "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Характеристики",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "annotations" : {
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "S. Nakamoto. Bitcoin: A Peer-to-Peer Electronic Cash System // bitcoin.org. - [Электронный ресурс]. URL: http://bitcoin.org/bitcoin.pdf, свободный (дата обращения: 28.01.2022).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Характеристики"
+    },
+    "subClasses" : [ "70", "60", "74", "72" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#NodeJS",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Программная платформа, основанная на движке V8 (компилирующем JavaScript в машинный код), превращающая JavaScript из узкоспециализированного языка в язык общего назначения. Node.js добавляет возможность JavaScript взаимодействовать с устройствами ввода-вывода через свой API, написанный на C++, подключать другие внешние библиотеки, написанные на разных языках, обеспечивая вызовы к ним из JavaScript-кода. Node.js применяется преимущественно на сервере, выполняя роль веб-сервера, но есть возможность разрабатывать на Node.js и десктопные оконные приложения (при помощи NW.js, AppJS или Electron для Linux, Windows и macOS) и даже программировать микроконтроллеры (например, tessel, low.js и espruino). В основе Node.js лежит событийно-ориентированное и асинхронное (или реактивное) программирование с неблокирующим вводом/выводом."
+    },
+    "annotations" : {
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "https://ru.wikipedia.org/wiki/Node.js",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NodeJS"
+    },
+    "id" : "32",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Проверяемость",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Каждый узел в сети может проверить всю цепочку данных."
+    },
+    "label" : {
+      "IRI-based" : "Проверяемость"
+    },
+    "id" : "70",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Data_Storage_Solutions",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Data_Storage_Solutions"
+    },
+    "id" : "79"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Spheres_of_Life",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Spheres_of_Life"
+    },
+    "subClasses" : [ "41", "14", "5", "10", "36" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Stablecoin",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stablecoin"
+    },
+    "id" : "86",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Programming_Language",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "формальный язык, предназначенный для записи компьютерных программ[1][2]. Язык программирования определяет набор лексических, синтаксических и семантических правил, определяющих внешний вид программы и действия, которые выполнит исполнитель (обычно — ЭВМ) под её управлением."
+    },
+    "annotations" : {
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "https://ru.wikipedia.org/wiki/%D0%AF%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Programming_Language"
+    },
+    "subClasses" : [ "33", "22" ],
+    "id" : "35",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Digital_Signature",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Digital_Signature"
+    },
+    "id" : "38",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Data_Privacy_and_Security",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "практика предотвращения несанкционированного доступа, использования, раскрытия, искажения, изменения, исследования, записи или уничтожения информации."
+    },
+    "annotations" : {
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Data_Privacy_and_Security"
+    },
+    "id" : "90"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Personality",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Personality"
+    },
+    "subClasses" : [ "51", "8", "54" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#IT",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "ru" : "процессы, использующие совокупность средств и методов сбора, обработки, накопления и передачи данных (первичной информации) для получения информации нового качества о состоянии объекта, процесса, явления, информационного продукта, а также распространения информации и способы осуществления таких процессов и методов (ФЗ № 149-ФЗ)."
+    },
+    "annotations" : {
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5_%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IT"
+    },
+    "subClasses" : [ "48", "35" ],
+    "id" : "36",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#JavaScript",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили. Является реализацией спецификации ECMAScript (стандарт ECMA-262[9])."
+    },
+    "annotations" : {
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "https://ru.wikipedia.org/wiki/JavaScript",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "JavaScript"
+    },
+    "subClasses" : [ "32" ],
+    "id" : "33",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Medicine",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Medicine"
+    },
+    "subClasses" : [ "40" ],
+    "id" : "41",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Cryptography",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cryptography"
+    },
+    "subClasses" : [ "38", "25" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Bitcoin",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "пиринговая платёжная система, использующая одноимённую единицу для учёта операций. Для обеспечения функционирования и защиты системы используются криптографические методы, но при этом вся информация о транзакциях между адресами системы доступна в открытом виде"
+    },
+    "annotations" : {
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D1%82%D0%BA%D0%BE%D0%B9%D0%BD",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Bitcoin"
+    },
+    "id" : "19",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Web3",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "ru" : "это идея новой итерации Всемирной паутины на основе блокчейна, которая включает в себя такие концепции, как децентрализация и экономика на основе токенов. Некоторые специалисты и журналисты противопоставляют её Веб 2.0, где, по их мнению, данные и контент централизованы в небольшой группе компаний, иногда называемых GAFAM. Термин был придуман в 2014 году соучредителем Ethereum Гэвином Вудом, а в 2021 году идеей заинтересовались криптовалютные энтузиасты, крупные технологические компании и венчурные фирмы."
+    },
+    "annotations" : {
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "https://ru.wikipedia.org/wiki/Web3",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Web3"
+    },
+    "id" : "76",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Постоянство_и_защита_от_взлома",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Внесенные данные в цепочку блоков могут быть изменены злоумышленниками лишь с очень низкой вероятностью;"
+    },
+    "label" : {
+      "IRI-based" : "Постоянство_и_защита_от_взлома"
+    },
+    "id" : "72",
+    "superClasses" : [ "61" ]
   }, {
     "instances" : 0,
-    "union" : [ "4", "21" ],
-    "attributes" : [ "anonymous", "union" ],
-    "id" : "70"
+    "union" : [ "63", "43" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Money_Flow",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Money_Flow"
+    },
+    "id" : "12",
+    "superClasses" : [ "10" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "60", "70", "74", "72" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Tim_Berners-Lee",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "ru" : "создатель URI, URL, HTTP, HTML и Всемирной паутины (совместно с Робертом Кайо) и действующий глава Консорциума Всемирной паутины. Автор концепции семантической паутины, множества других разработок в области информационных технологий."
+    },
+    "annotations" : {
+      "founder-of" : [ {
+        "identifier" : "founder-of",
+        "language" : "undefined",
+        "value" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Web",
+        "type" : "iri"
+      } ],
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "https://en.wikipedia.org/wiki/Tim_Berners-Lee",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Tim_Berners-Lee"
+    },
+    "id" : "51",
+    "superClasses" : [ "9" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "0", "38", "15", "25", "26" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "92"
+  }, {
+    "instances" : 0,
+    "union" : [ "79", "90" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "57"
+  }, {
+    "instances" : 0,
+    "union" : [ "41", "14", "5", "10", "36" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Cryptocurrency",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "разновидность цифровой валюты, учёт внутренних расчётных единиц которой обеспечивает децентрализованная платёжная система ("
+    },
+    "annotations" : {
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "Рисс В. И. К вопросу о коллективных валютах или частных деньгах // Экономика, управление, и право: инновационное решение проблем. — 2017. — С. 21—23.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Cryptocurrency"
+    },
+    "subClasses" : [ "78", "86", "42" ],
+    "id" : "43",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Пользователям_не_нужно_полагаться_на_доверие",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Во всех транзакциях исключено участие посредника, а его функции выполняют алгоритмы, которые позволяют устранить необходимость доверять контрагенту – транзакция будет совершена таким образом, как договорились контрагенты;"
+    },
+    "label" : {
+      "IRI-based" : "Пользователям_не_нужно_полагаться_на_доверие"
+    },
+    "id" : "74",
+    "superClasses" : [ "61" ]
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "19",
+    "id" : "93",
     "label" : {
       "undefined" : "Thing"
     }
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Real_Estate_Registration",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
     "instances" : 0,
-    "label" : {
-      "IRI-based" : "Real_Estate_Registration"
+    "union" : [ "19", "15", "20", "26" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Decentralized_Applications",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "компьютерное приложение, которое базируются на технологии блокчейн совместно с механизмом распределённого выполнения необходимых инструкций. По состоянию на 2021 год наиболее часто для этого применяется Ethereum с его механизмом смарт-контрактов[3], но есть варианты и на блокчейн-платформе Waves."
     },
-    "id" : "57",
-    "superClasses" : [ "12" ]
-  }, {
-    "instances" : 0,
-    "union" : [ "48", "66", "46", "5", "45" ],
-    "attributes" : [ "anonymous", "union" ],
-    "id" : "18"
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Proof-of-Authority",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Proof-of-Authority"
-    },
-    "id" : "7",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Decentralized_Applications",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
     "label" : {
       "IRI-based" : "Decentralized_Applications"
     },
-    "id" : "21",
-    "superClasses" : [ "2" ]
+    "subClasses" : [ "15" ],
+    "id" : "63",
+    "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Gas",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Real_Estate_Registration",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
-    "label" : {
-      "IRI-based" : "Gas"
+    "annotations" : {
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "Государственная регистрация прав осуществляется посредством внесения в Единый государственный реестр недвижимости записи о праве на недвижимое имущество, сведения о котором внесены в Единый государственный реестр недвижимости (ЕГРН). Сделки с недвижимостью подлежат обязательной государственной регистрации в случаях, если законом предусмотрена государственная регистрация сделок. Государственной регистрации подлежит переход права собственности по договору. В России регистрацию сделок с недвижимостью осуществляет специальный государственный орган — Федеральная служба государственной регистрации, кадастра и картографии.",
+        "type" : "label"
+      }, {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C#%D0%92_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8",
+        "type" : "label"
+      } ]
     },
-    "id" : "34",
-    "superClasses" : [ "2" ]
+    "label" : {
+      "IRI-based" : "Real_Estate_Registration"
+    },
+    "id" : "4",
+    "superClasses" : [ "5" ]
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Public_Key",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Public_Key",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Public_Key"
     },
-    "id" : "45",
-    "superClasses" : [ "46" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#NodeJS",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "NodeJS"
-    },
-    "id" : "37",
-    "superClasses" : [ "38" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Contracts",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Contracts"
-    },
-    "id" : "52",
-    "superClasses" : [ "14" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Programming_Language",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Programming_Language"
-    },
-    "subClasses" : [ "38", "67" ],
     "id" : "25",
-    "superClasses" : [ "11" ]
+    "superClasses" : [ "26" ]
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Economics",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Gas",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "используется для оценки сложности алгоритма в блокчейне"
+    },
+    "annotations" : {
+      "description-source" : [ {
+        "identifier" : "description-source",
+        "language" : "undefined",
+        "value" : "Pothumani S., Arunachalam A. R. Efficient Maintenance of Hospital Records by Entrusted Proof of Venture Algorithm in Block Chain Technology // 2021 International Conference on System, Computation, Automation and Networking (ICSCAN). 2021. C. 1-5.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Gas"
+    },
+    "id" : "28",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#Electronic_Voting",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Economics"
+      "IRI-based" : "Electronic_Voting"
     },
-    "subClasses" : [ "68" ],
-    "id" : "13",
-    "superClasses" : [ "10" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Solidity",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Solidity"
-    },
-    "id" : "67",
-    "superClasses" : [ "66", "30", "25" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#Delegated_Proof-of-Stake",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Delegated_Proof-of-Stake"
-    },
-    "id" : "9",
+    "id" : "17",
     "superClasses" : [ "5" ]
   } ],
   "property" : [ {
-    "id" : "0",
+    "id" : "3",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "17",
-    "type" : "owl:objectProperty"
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "20",
+    "id" : "21",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "29",
@@ -646,32 +978,41 @@
     "id" : "31",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "33",
+    "id" : "34",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "35",
+    "id" : "37",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "36",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "42",
+    "id" : "39",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "47",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "49",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "55",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "56",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "58",
     "type" : "rdfs:SubClassOf"
@@ -679,16 +1020,7 @@
     "id" : "59",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "60",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "61",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "62",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "63",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "64",
@@ -697,31 +1029,28 @@
     "id" : "65",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "71",
+    "id" : "66",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "72",
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "73",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "74",
-    "type" : "owl:objectProperty"
-  }, {
     "id" : "75",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "76",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "77",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "78",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "79",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "80",
@@ -742,232 +1071,311 @@
     "id" : "85",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "86",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "87",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "91",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
-    "range" : "2",
-    "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "0"
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
   }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#used-in",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "range" : "19",
+    "range" : "5",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "20",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "14",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "26",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "20",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "range" : "15",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "33",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "36",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "range" : "26",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "41",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "30",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "18",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "36",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "range" : "9",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "18",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "9",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "35",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#provided-by",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "provided-by"
+    },
+    "domain" : "57",
+    "attributes" : [ "object" ],
+    "id" : "56"
+  }, {
+    "range" : "13",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "35",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "11",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "range" : "11",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "11",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "11",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "11",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "61",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "61",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "range" : "61",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "range" : "61",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "range" : "48",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "7",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "7",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "7",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "7",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "7",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "43",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "range" : "43",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "87"
+  }, {
+    "range" : "63",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "43",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#used-in",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "range" : "93",
     "label" : {
       "IRI-based" : "used-in"
     },
-    "domain" : "18",
+    "domain" : "92",
     "comment" : {
       "undefined" : "Используется в"
     },
     "attributes" : [ "object" ],
-    "id" : "17"
+    "id" : "91"
   }, {
-    "range" : "2",
-    "domain" : "21",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "20"
-  }, {
-    "range" : "2",
-    "domain" : "24",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "23"
-  }, {
-    "range" : "2",
-    "domain" : "30",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "29"
-  }, {
-    "range" : "2",
-    "domain" : "32",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "31"
-  }, {
-    "range" : "2",
-    "domain" : "34",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "33"
-  }, {
-    "range" : "2",
-    "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "35"
-  }, {
-    "range" : "38",
-    "domain" : "37",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "36"
-  }, {
-    "range" : "26",
-    "domain" : "43",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "42"
-  }, {
-    "range" : "46",
-    "domain" : "45",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "44"
-  }, {
-    "range" : "46",
-    "domain" : "48",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "47"
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#provided-by",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "range" : "2",
-    "label" : {
-      "IRI-based" : "provided-by"
-    },
-    "domain" : "50",
-    "attributes" : [ "object" ],
-    "id" : "49"
-  }, {
-    "range" : "28",
-    "domain" : "40",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "55"
-  }, {
-    "range" : "28",
-    "domain" : "39",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "56"
-  }, {
-    "range" : "28",
-    "domain" : "27",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "58"
-  }, {
-    "range" : "22",
-    "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "59"
-  }, {
-    "range" : "10",
-    "domain" : "15",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "60"
-  }, {
-    "range" : "11",
-    "domain" : "26",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "61"
-  }, {
-    "range" : "11",
-    "domain" : "25",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "62"
-  }, {
-    "range" : "10",
-    "domain" : "12",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "63"
-  }, {
-    "range" : "10",
-    "domain" : "14",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "64"
-  }, {
-    "range" : "10",
-    "domain" : "13",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "65"
-  }, {
-    "range" : "5",
-    "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "71"
-  }, {
-    "range" : "5",
-    "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "72"
-  }, {
-    "range" : "5",
-    "domain" : "8",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "73"
-  }, {
-    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2#based-on",
-    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/untitled-ontology-2",
-    "range" : "69",
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#based-on",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "range" : "96",
     "label" : {
       "IRI-based" : "based-on"
     },
-    "domain" : "70",
+    "domain" : "95",
     "comment" : {
       "undefined" : "Базируются на"
     },
     "attributes" : [ "object" ],
-    "id" : "74"
+    "id" : "94"
   }, {
-    "range" : "5",
-    "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "75"
+    "range" : "0",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "range" : "0",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
   }, {
     "range" : "10",
-    "domain" : "11",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "76"
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
   }, {
-    "range" : "13",
-    "domain" : "68",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "77"
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#характеристики-блокчейна",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "характеристики-блокчейна"
+    },
+    "domain" : "97",
+    "attributes" : [ "object" ],
+    "id" : "102"
   }, {
-    "range" : "25",
-    "domain" : "67",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "78"
-  }, {
-    "range" : "25",
-    "domain" : "38",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "79"
-  }, {
-    "range" : "12",
-    "domain" : "57",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "80"
-  }, {
-    "range" : "4",
-    "domain" : "41",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "81"
-  }, {
-    "range" : "30",
-    "domain" : "67",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "82"
-  }, {
-    "range" : "66",
-    "domain" : "67",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "83"
-  }, {
-    "range" : "15",
-    "domain" : "54",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "84"
-  }, {
-    "range" : "14",
-    "domain" : "52",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "85"
-  }, {
-    "range" : "4",
-    "domain" : "3",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "86"
-  }, {
-    "range" : "4",
-    "domain" : "51",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "87"
+    "iri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary#полезен-для",
+    "baseIri" : "http://www.semanticweb.org/telparts-operator/ontologies/2023/0/dissertation-glossary",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "полезен-для"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "103"
   } ]
 }
